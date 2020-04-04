@@ -8,8 +8,17 @@ Light theme for Jupyter Lab
 
 ## Installation
 
+Installation from source code:
+
 ```bash
+git clone https://github.com/microcoder/jupyterlab-ubu-theme
 jupyter labextension install jupyterlab-ubu-theme
+```
+
+or install direct from the repository:
+
+```bash
+jupyter labextension install https://github.com/microcoder/jupyterlab-ubu-theme
 ```
 
 ## Uninstall
