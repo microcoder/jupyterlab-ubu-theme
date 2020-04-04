@@ -491,6 +491,13 @@ https://css3-tutorial.net/text-font/font-weight/
 | Distributed under the terms of the Modified BSD License.
 |----------------------------------------------------------------------------*/
 
+.jp-RenderedText[data-mime-type="application/vnd.jupyter.stdout"] {
+    background: var(--md-grey-800);
+}
+
+.jp-RenderedText[data-mime-type="application/vnd.jupyter.stdout"] pre {
+    color: var(--md-grey-100);
+}
 
 .jp-RenderedHTMLCommon pre {
     border: 1px solid var(--md-grey-300);
