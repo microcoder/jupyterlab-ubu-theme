@@ -12,6 +12,13 @@ Light theme for Jupyter Lab
 jupyter labextension install jupyterlab-ubu-theme
 ```
 
+## Uninstall
+
+```bash
+jupyter labextension uninstall jupyterlab-ubu-theme
+jupyter lab build
+```
+
 ## Development
 
 For a development install (requires npm version 4 or later), do the following in the repository directory:
