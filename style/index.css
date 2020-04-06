@@ -509,7 +509,7 @@ https://css3-tutorial.net/text-font/font-weight/
 
 .jp-RenderedHTMLCommon code {
     background-color: var(--md-grey-100);
-    font-size: var(--jp-code-font-size);
+    font-size: inherit;
     font-family: var(--jp-code-font-family);
 }
 
