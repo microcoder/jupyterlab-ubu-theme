@@ -1,13 +1,13 @@
 # Jupyterlab Ubu Theme
 
-Light theme for Jupyter Lab
+This light theme is modify of built in *JupyterLab Light Theme* and uses Ubuntu fonts.
 
 <img src="https://raw.githubusercontent.com/microcoder/jupyterlab-ubu-theme/master/screenshots/jupyterlab-ubu-theme-1.png" />
 <img src="https://raw.githubusercontent.com/microcoder/jupyterlab-ubu-theme/master/screenshots/jupyterlab-ubu-theme-2.png" />
 
 ## Prerequisites
 
-* JupyterLab
+* JupyterLab >= 2.0.0
 
 ## Installation
 
