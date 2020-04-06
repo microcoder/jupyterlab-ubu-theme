@@ -1,6 +1,9 @@
-# jupyterlab-ubu-theme
+# Jupyterlab Ubu Theme
 
 Light theme for Jupyter Lab
+
+<img src="https://raw.githubusercontent.com/microcoder/jupyterlab-ubu-theme/master/screenshots/jupyterlab-ubu-theme-1.png" />
+<img src="https://raw.githubusercontent.com/microcoder/jupyterlab-ubu-theme/master/screenshots/jupyterlab-ubu-theme-2.png" />
 
 ## Prerequisites
 
@@ -15,7 +18,7 @@ git clone https://github.com/microcoder/jupyterlab-ubu-theme
 jupyter labextension install jupyterlab-ubu-theme
 ```
 
-## Uninstall
+## Uninstallation
 
 ```bash
 jupyter labextension uninstall jupyterlab-ubu-theme
