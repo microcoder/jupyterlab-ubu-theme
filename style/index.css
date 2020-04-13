@@ -522,6 +522,10 @@ https://css3-tutorial.net/text-font/font-weight/
     border: 1px solid var(--md-grey-300);
 }
 
+img {
+  padding: 20px 0px 20px 0px;
+}
+
 /* Set the default typography for monospace elements */
 tt,
 code,
