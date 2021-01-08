@@ -1,6 +1,6 @@
 {
   "name": "jupyterlab-ubu-theme",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "Light theme for Jupyter Lab",
   "author": "microcoder <dva20@yandex.ru>",
   "keywords": [
@@ -22,7 +22,7 @@
     "lib": "lib/"
   },
   "scripts": {
-    "build": "tsc -b && webpack",
+    "build": "tsc",
     "build:webpack": "webpack",
     "clean": "rimraf lib && rimraf static && rimraf tsconfig.tsbuildinfo",
     "prepare": "npm run clean && npm run build",
@@ -30,22 +30,22 @@
     "watch:webpack": "webpack --watch"
   },
   "dependencies": {
-    "@jupyterlab/application": ">= 2.0.0",
-    "@jupyterlab/apputils": ">= 2.0.0"
+    "@jupyterlab/application": "^2.0.0",
+    "@jupyterlab/apputils": "^2.0.0"
   },
   "devDependencies": {
-    "css-loader": "^3.4.2",
-    "mini-css-extract-plugin": "~0.4.4",
     "rimraf": "~2.6.2",
-    "svg-url-loader": "^2.3.3",
-    "svgo": "^1.2.2",
+    "typedoc": "~0.12.0",
+    "typescript": "~3.7.1",
+    "css-loader": "~0.28.7",
+    "mini-css-extract-plugin": "~0.4.4",
+    "svgo": "~1.0.4",
+    "svg-url-loader": "~2.3.1",
     "svgo-loader": "~2.1.0",
-    "typedoc": "^0.15.8",
-    "typescript": "~3.5.2",
     "url-loader": "~1.0.1",
     "watch": "~1.0.2",
-    "webpack": "^4.42.0",
-    "webpack-cli": "^3.3.11"
+    "webpack": "~4.12.0",
+    "webpack-cli": "^3.0.3"
   },
   "publishConfig": {
     "access": "public"
